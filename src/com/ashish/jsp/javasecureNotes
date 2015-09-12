@@ -1,0 +1,60 @@
+1. SQL Injection:
+
+SQL injection is a code injection technique, used to attack data-driven applications, 
+in which malicious SQL statements are inserted into an entry field for execution 
+(e.g. to dump the database contents to the attacker.
+
+SQL Injection Based on 1=1 is Always True:
+eg: SELECT * FROM Users WHERE UserId = 105 or 1=1
+
+SQL Injection Based on ""="" is Always True:
+inserting " or ""=" into the user name or password text box.
+
+eg: SELECT * FROM Users WHERE Name ="" or ""="" AND Pass ="" or ""=""
+
+SQL Injection Based on Batched SQL Statements:
+Most databases support batched SQL statement, separated by semicolon.
+eg: SELECT * FROM Users WHERE UserId = 105; DROP TABLE Suppliers
+
+Parameters for Protection:
+The only proven way to protect a web site from SQL injection attacks, is to use SQL parameters.
+SQL parameters are values that are added to an SQL query at execution time, in a controlled manner.
+
+eg: 
+txtNam = getRequestString("CustomerName");
+txtAdd = getRequestString("Address");
+txtCit = getRequestString("City");
+txtSQL = "INSERT INTO Customers (CustomerName,Address,City) Values(@0,@1,@2)";
+db.Execute(txtSQL,txtNam,txtAdd,txtCit);
+
+2. URL manipulation
+3. Hidden Field manipulation
+--------------------------------------
+The above were the types of attack
+--------------------------------------
+
+Top 10 application attacks: Slide 10
+
+Top 25 Programming Errors:
+There are 3 categories:
+1. Insecure Interaction between components(9)
+2. Risky resource management(9)
+3. Porous Defenses(7)
+
+---------------------------------------
+Goals : 3 (CIA)
+Principles : 7
+---------------------------------------
+Authentication, its preventions
+---------------------------------------
+Authorization. its preventions
+---------------------------------------
+
+Part2:
+
+Java Secure Programming:
+
+1. Session Management
+2. Data Validation
+3. Sensitive Data Protection
+4. Secure Coding practices

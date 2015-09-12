@@ -1,0 +1,17 @@
+Important Slide Numbers: 
+{2, 3, ..   } : Everything seems to be important.
+
+Ajax  : DHTML + Asynchronous communication through XMLHttpRequest object(heart of Ajax).
+DHTML :  Javascript + DOM + CSS
+
+Object, Methods and Properties : page 39
+
+Ajax Frameworks : page 45
+Ajax Security   : page 48
+Principles		: page 52
+Patterns		: page 54 (Predictive fetch, Submission Throttling, Periodic refresh patterns(polling), 
+							Multistage download pattern, Fallback pattern[Cancel pending requests,
+																			Try again
+																		 ]) 
+
+

@@ -1,0 +1,18 @@
+JCA:
+Java EE Connector Architecture (JCA) is a Java-based technology solution for connecting 
+application servers and enterprise information systems (EIS) as part of 
+enterprise application integration (EAI) solutions. 
+While JDBC is specifically used to connect Java EE applications to databases, 
+JCA is a more generic architecture for connection to legacy systems.
+
+Session session = sessionFactory.openSession();
+
+JTA:
+
+Java Transaction API (JTA) specifies standard Java interfaces between a transaction manager 
+and the parties involved in a distributed transaction system: 
+the resource manager, the application server, and the transactional applications.
+
+
+
+

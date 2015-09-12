@@ -1,0 +1,49 @@
+Assertion:
+Assertion is a statement in java. It can be used to test your assumptions about the program.
+While executing assertion, it is believed to be true. If it fails, JVM will throw an error named AssertionError. 
+It is mainly used for testing purpose.
+
+Advantage of Assertion:
+It provides an effective way to detect and correct programming errors.
+
+Syntax of using Assertion:
+There are two ways to use assertion. 
+
+First way is:
+assert expression; 
+
+Second way is:
+assert expression1 : expression2;
+
+-----------------------------------------------
+assert booleanExpression;
+assert booleanExpression : errorMessage;
+-----------------------------------------------
+
+Running the program:
+If you use assertion, It will not run simply because assertion is disabled by default. 
+To enable the assertion, -ea or -enableassertions switch of java must be used.
+Compile it by: javac AssertionExample.java
+Run it by: java -ea AssertionExample
+
+
+Where not to use Assertion:
+There are some situations where assertion should be avoided. They are:
+1. According to Sun Specification, assertion should not be used to check arguments in the public methods 
+because it should result in appropriate runtime exception e.g. IllegalArgumentException, NullPointerException etc.
+[public method should always check its argument and throw appropriate exception e.g. IllegalArgumentException]
+
+2. Do not use assertion, if you don't want any error in any situation.
+
+3. (**) It is not correct to handle assertion failures using a catch clause.
+
+4. assertion can be enable and disable at run time by using switch -da or -disableassertion
+
+5. Always remember Assertion does not replace Exception but compliments it.
+
+6. Another important point is Assertion also doesn't replace need of unit testing 
+instead if you see JUnit it shows how assertion can be useful to validate conditions.
+
+Note:
+If you are working in java version 1.2 you can compile your code with assertion as below:
+javac -source 1.4 OnlineStockTradingDemo.java

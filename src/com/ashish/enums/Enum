@@ -1,0 +1,36 @@
+Java Enum:
+
+Enum in java is a data type that contains fixed set of constants.
+It can be used for days of the week (SUNDAY, MONDAY, TUESDAY, WEDNESDAY, THURSDAY, FRIDAY and SATURDAY) , 
+directions (NORTH, SOUTH, EAST and WEST) etc. The java enum constants are static and final implicitly. 
+It is available from JDK 1.5.
+
+Java Enums can be thought of as classes that have fixed set of constants.
+
+Points to remember for Java Enum:
+1. enum improves type safety
+2. enum can be easily used in switch
+3. enum can be traversed
+4. enum can have fields, constructors and methods
+5. enum may implement many interfaces but cannot extend any class because it internally extends Enum class.
+
+What is the purpose of values() method in enum?
+The java compiler internally adds the values() method when it creates an enum. The values() method returns an 
+array containing all the values of the enum.
+
+The java compiler internally creates a static and final class that extends the Enum class:
+public static final class EnumExample1$Sport extends Enum.  
+
+Defining Java enum:
+The enum can be defined within or outside the class because it is similar to a class.
+
+** Constructor of enum type is private. If you don't declare private compiler internally creates private constructor.
+
+Can we create the instance of enum by new keyword?
+No, because it contains private constructors only.
+
+Can we have abstract method in enum?
+Yes, ofcourse! we can have abstract methods and can provide the implementation of these methods.
+
+Java enum in switch statement:
+We can apply enum on switch statement

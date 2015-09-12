@@ -1,0 +1,204 @@
+What is Thread in java?
+A thread is a lightweight sub process, a smallest unit of processing. It is a separate path of execution.
+Threads are independent, if there occurs exception in one thread, it doesn't affect other threads.
+It shares a common memory area.
+
+Life cycle of a Thread (Thread States):
+1) New:
+The thread is in new state if you create an instance of Thread class but before the invocation of start() method.
+
+2) Runnable:
+The thread is in runnable state after invocation of start() method, but the thread scheduler has not 
+selected it to be the running thread.
+
+3) Running:
+The thread is in running state if the thread scheduler has selected it.
+
+4) Non-Runnable (Blocked):
+This is the state when the thread is still alive, but is currently not eligible to run.
+
+5) Terminated:
+A thread is in terminated or dead state when its run() method exits.
+
+
+How to create thread?
+There are two ways to create a thread:
+
+By extending Thread class
+By implementing Runnable interface.
+
+Thread class:
+Thread class provide constructors and methods to create and perform operations on a thread.
+Thread class extends Object class and implements Runnable interface.
+
+Commonly used Constructors of Thread class:
+Thread()
+Thread(String name)
+Thread(Runnable r)
+Thread(Runnable r,String name)
+
+Commonly used methods of Thread class:
+
+Commonly used methods of Thread class:
+
+public void run(): is used to perform action for a thread.
+public void start(): starts the execution of the thread.JVM calls the run() method on the thread.
+public void sleep(long miliseconds): Causes the currently executing thread to sleep (temporarily cease execution) 
+for the specified number of milliseconds.
+
+public void join(): waits for a thread to die.
+public void join(long miliseconds): waits for a thread to die for the specified miliseconds.
+
+public int getPriority(): returns the priority of the thread.
+public int setPriority(int priority): changes the priority of the thread.
+public String getName(): returns the name of the thread.
+public void setName(String name): changes the name of the thread.
+public Thread currentThread(): returns the reference of currently executing thread.
+public int getId(): returns the id of the thread.
+
+public Thread.State getState(): returns the state of the thread.
+
+public boolean isAlive(): tests if the thread is alive.
+
+public void yield(): causes the currently executing thread object to temporarily pause 
+and allow other threads to execute.
+
+public void suspend(): is used to suspend the thread(depricated).
+public void resume(): is used to resume the suspended thread(depricated).
+public void stop(): is used to stop the thread(depricated).
+public boolean isDaemon(): tests if the thread is a daemon thread.
+public void setDaemon(boolean b): marks the thread as daemon or user thread.
+public void interrupt(): interrupts the thread.
+public boolean isInterrupted(): tests if the thread has been interrupted.
+public static boolean interrupted(): tests if the current thread has been interrupted.
+
+-------------------------------------------------------------------------------------
+Runnable interface:
+
+The Runnable interface should be implemented by any class whose instances are intended to be 
+executed by a thread. Runnable interface have only one method named run().
+public void run(): is used to perform action for a thread.
+Starting a thread:
+
+start() method of Thread class is used to start a newly created thread. It performs following tasks:
+A new thread starts(with new callstack).
+The thread moves from New state to the Runnable state.
+When the thread gets a chance to execute, its target run() method will run.
+
+-------------------------------------------------------------------------------------
+
+Thread Scheduler in Java:
+Thread scheduler in java is the part of the JVM that decides which thread should run.
+There is no guarantee that which runnable thread will be chosen to run by the thread scheduler.
+Only one thread at a time can run in a single process.
+The thread scheduler mainly uses preemptive or time slicing scheduling to schedule the threads.
+
+Difference between preemptive scheduling and time slicing:
+Under preemptive scheduling, the highest priority task executes until it enters the waiting or dead states 
+or a higher priority task comes into existence. 
+Under time slicing, a task executes for a predefined slice of time and then reenters the pool of ready tasks. 
+The scheduler then determines which task should execute next, based on priority and other factors.
+
+-------------------------------------------------------------------------------------
+
+Sleep method in java:
+The sleep() method of Thread class is used to sleep a thread for the specified amount of time.
+Syntax of sleep() method in java
+
+The Thread class provides two methods for sleeping a thread:
+public static void sleep(long miliseconds)throws InterruptedException
+public static void sleep(long miliseconds, int nanos)throws InterruptedException
+
+(**) As you know well that at a time only one thread is executed. 
+If you sleep a thread for the specified time,the thread shedular picks up another thread and so on.
+Eg: TestSleepMethod1.java
+-------------------------------------------------------------------------------------
+
+Can we start a thread twice ?
+No. 
+After starting a thread, it can never be started again. 
+If you does so, an IllegalThreadStateException is thrown. 
+In such case, thread will run once but for second time, it will throw exception.
+Eg: TestThreadTwice1.java
+
+-------------------------------------------------------------------------------------
+
+What if we call run() method directly instead start() method?
+Each thread starts in a separate call stack.
+Invoking the run() method from main thread, the run() method goes onto the current 
+call stack rather than at the beginning of a new call stack.
+Eg: Refer diagram at http://www.javatpoint.com/what-if-we-call-run()-method-directly
+TestCallRun1.java and TestCallRun2.java
+
+-------------------------------------------------------------------------------------
+
+The join() method:
+The join() method waits for a thread to die. 
+In other words, it causes the currently running threads to stop executing until 
+the thread it joins with completes its task.	
+Eg: TestJoinMethod1.java, TestJoinMethod2.java, TestJoinMethod3.java 
+
+The currentThread() method:
+The currentThread() method returns a reference to the currently executing thread object.
+Thread.currentThread().getName() = gives the name of the thread.
+
+-------------------------------------------------------------------------------------
+
+Naming a thread:
+The Thread class provides methods to change and get the name of a thread.
+public String getName(): is used to return the name of a thread.
+public void setName(String name): is used to change the name of a thread.
+
+Eg:TestJoinMethod3.java
+-------------------------------------------------------------------------------------
+
+Priority of a Thread (Thread Priority):
+
+Each thread have a priority. Priorities are represented by a number between 1 and 10. 
+In most cases, thread schedular schedules the threads according to their priority 
+(known as preemptive scheduling). 
+But it is not guaranteed because it depends on JVM specification that which scheduling it chooses.
+
+3 constants defiend in Thread class:
+
+public static int MIN_PRIORITY
+public static int NORM_PRIORITY
+public static int MAX_PRIORITY
+
+Default priority of a thread is 5 (NORM_PRIORITY). 
+The value of MIN_PRIORITY is 1.
+The value of MAX_PRIORITY is 10.
+
+
+-------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+-------------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
