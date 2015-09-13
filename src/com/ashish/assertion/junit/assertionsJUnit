@@ -68,7 +68,5 @@ after() method executes for each test case but after the execution of test case
 In between before() and after() each test case executes.
 
 (-------- JUnit - Executing Tests ----------)
-This is not required for UCF L2.2
-If time permits then I will look into it.
-
+This is not required for UCF L2.2 If time permits then I will look into it. 
 ---------------------------------------------------------------------------------------
