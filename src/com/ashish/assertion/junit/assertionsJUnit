@@ -1,0 +1,74 @@
+Assertion: All the assertion are in the Assert class.
+
+(*) public class org.junit.Assert extends java.lang.Object
+This class provides a set of assertion methods useful for writing tests. Only failed assertions are recorded.
+Some of the important methods of Assert class are:
+
+1	void assertEquals(boolean expected, boolean actual)
+Check that two primitives/Objects are equal
+
+2	void assertTrue(boolean condition)
+Check that a condition is true
+
+3	void assertFalse(boolean condition)
+Check that a condition is false
+
+4	void assertNotNull(Object object)
+Check that an object isn't null.
+
+5	void assertNull(Object object)
+Check that an object is null
+
+6	void assertSame(boolean condition)
+The assertSame() methods tests if two object references point to the same object
+
+7	void assertNotSame(boolean condition)
+The assertNotSame() methods tests if two object references not point to the same object
+
+8	void assertArrayEquals(expectedArray, resultArray);
+The assertArrayEquals() method will test whether two arrays are equal to each other.
+
+-------------------------------------------------------------------------------------
+
+JUnit Annotation:
+Annotations are like meta-tags that you can add to you code and apply them to methods or in class. 
+These annotation in JUnit gives us information about test methods , which methods are going to run before & after test methods,
+which methods run before & after all the methods, which methods or class will be ignore during execution.
+
+List of annotations and their meaning in JUnit :
+
+1	@Test
+The Test annotation tells JUnit that the public void method to which it is attached can be run as a test case.
+
+2	@Before
+Several tests need similar objects created before they can run. 
+Annotating a public void method with @Before causes that method to be run before each Test method.
+
+3	@After
+If you allocate external resources in a Before method you need to release them after the test runs. 
+Annotating a public void method with @After causes that method to be run after the Test method.
+
+4	@BeforeClass
+Annotating a public static void method with @BeforeClass causes it to be run once before any of the test methods in the class.
+
+5	@AfterClass
+This will perform the method after all tests have finished. This can be used to perform clean-up activities.
+
+6	@Ignore
+The Ignore annotation is used to ignore the test and that test will not be executed.
+
+---------------------------------------------------------------------------------------
+
+Execution Procedure:
+
+First of all beforeClass() method execute only once
+Lastly, the afterClass() method executes only once.
+before() method executes for each test case but before executing the test case.
+after() method executes for each test case but after the execution of test case
+In between before() and after() each test case executes.
+
+(-------- JUnit - Executing Tests ----------)
+This is not required for UCF L2.2
+If time permits then I will look into it.
+
+---------------------------------------------------------------------------------------
