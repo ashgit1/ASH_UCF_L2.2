@@ -4,8 +4,8 @@ enum States {
 	Karnataka("Bangalore"), Maharashtra("Mumbai"), Kerala("Trivandrum");
 	String city;
 
-	States(String c) {
-		city = c;
+	private States(String c) {
+		this.city = c;
 	}
 }
 

@@ -14,5 +14,6 @@ public class VarArgsTest {
 
 	public static void main(String[] args) {
 		new VarArgsTest().invoke(67.3f, 27.8f);
+		new VarArgsTest().invoke(67.3f, 27.8f, 17.4f);
 	}
 }

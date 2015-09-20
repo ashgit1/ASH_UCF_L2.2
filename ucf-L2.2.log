@@ -28,3 +28,14 @@
 2015-09-13 13:47:27 INFO  TestAssertionRunner:19 - false
 2015-09-13 13:48:01 INFO  TestAssertionRunner:18 - Failure Count : 0
 2015-09-13 13:48:01 INFO  TestAssertionRunner:19 - true
+2015-09-16 19:37:44 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<...unit is working fine[.]> but was:<...unit is working fine[]>
+2015-09-16 19:37:44 INFO  TestJunit:19 - false
+2015-09-16 19:38:05 INFO  TestJunit:19 - true
+2015-09-16 19:41:23 INFO  TestAssertionRunner:18 - Failure Count : 0
+2015-09-16 19:41:23 INFO  TestAssertionRunner:19 - true
+2015-09-16 19:42:55 INFO  ExecutionProcedureRunner:18 - true
+2015-09-20 14:59:45 INFO  UnIntentionalObjectCreation:21 - Time taken in ms: 5998
+2015-09-20 15:00:44 INFO  UnIntentionalObjectCreation:21 - Time taken in ms: 6029 , Sum: -1243309312
+2015-09-20 15:01:32 INFO  UnIntentionalObjectCreation:21 - Time taken in ms: 6088 , Sum: -1243309312
+2015-09-20 15:02:35 INFO  UnIntentionalObjectCreation:21 - Time taken in ms: 6072 , Sum: -1243309312
+2015-09-20 15:03:55 INFO  SumOfIntegers:21 - Time taken in ms: 311 , Sum: -1243309312

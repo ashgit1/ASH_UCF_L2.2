@@ -5,11 +5,12 @@ package com.ashish.collection;
 */		
 
 import java.util.Set;
-import java.util.LinkedHashSet;
+import java.util.TreeSet;
+
 public class TestSet {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
-		Set s = new LinkedHashSet();
+		Set s = new TreeSet();
 		s.add("Windows");
 		s.add("Mac");
 		s.add("Mac");

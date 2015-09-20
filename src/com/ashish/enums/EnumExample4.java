@@ -9,17 +9,22 @@ package com.ashish.enums;
 public class EnumExample4 {
 
 	enum Season {
-		WINTER(5), SPRING(10), SUMMER(15), FALL(20);
+		WINTER(5), SPRING(10), SUMMER(15), FALL("YES");
 		private int value;
+		private String value1;
 		
 		private Season(int value) {
 			this.value = value;
+		}
+		
+		private Season(String value1){
+			this.value1 = value1;
 		}
 	}
 
 	public static void main(String[] args) {
 		for(Season s : Season.values()){
-			System.out.println("\n" + s +": " + s.value);;
+			System.out.println("\n" + s +": " + s.value + " | " + s.value1 + " | " + Season.FALL.value1);
 		}
 	}
 

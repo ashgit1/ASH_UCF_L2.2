@@ -1,8 +1,13 @@
+What is Boxing and Unboxing?
+Conversion of a primitive type to the corresponding reference(wrapper) type is called boxing, such as an int to a java.lang.Integer. 
+Conversion of the reference type to the corresponding primitive type is called unboxing, such as Byte to byte.
+Since JDK 1.5, Conversion from primitive types to corresponding wrapper objects and vice versa can happen automatically.
+
+What is Widening?
 Widening is transforming a variable in another with a wider type.
 Widening can be done with primitive or reference types.
 
 For example :
-
 String -> Object
 int -> long
 
