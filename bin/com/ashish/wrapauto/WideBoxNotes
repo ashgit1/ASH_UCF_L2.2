@@ -19,4 +19,7 @@ Rules:
 [int -{Boxing}-> Integer, Integer -{Widening}-> Number] = (Possible)
 5. Widening and boxing is not possible 
 [Integer -{Widening}-> Number -{Boxing}-> ?? , Number can't be Boxed since no Wrapper for it. ] = (Not Possible)
-6. var-args can be combined with either boxing or widening
+6. var-args can be combined with either boxing or widening.
+
+What is var-args ?
+Explained in com.ashish.varargs.
