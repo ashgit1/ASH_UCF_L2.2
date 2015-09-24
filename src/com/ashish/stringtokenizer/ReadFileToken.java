@@ -14,8 +14,7 @@ public class ReadFileToken {
 		try {
 
 			String line;
-			br = new BufferedReader(new FileReader("D:/ashish/Users/Tutorials/UCF/UcfWorkSpace/Ucf_L2.2_Core/src/tokens.csv"));
-			//br = new BufferedReader(new FileReader("/src/tokens.csv"));
+			br = new BufferedReader(new FileReader("src/tokens.csv"));
 			while ((line = br.readLine()) != null) {
 				
 				System.out.println(line);
