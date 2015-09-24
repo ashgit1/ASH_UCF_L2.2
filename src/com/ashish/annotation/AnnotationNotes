@@ -166,6 +166,9 @@ The @Inherited annotation marks the annotation to be inherited to subclasses.
 class Superclass{}  
 class Subclass extends Superclass{}
 
+ex: InheritedAnnotation.java
+
+
 4.@Documented:
 The @Documented Marks the annotation for inclusion in the documentation.
   
