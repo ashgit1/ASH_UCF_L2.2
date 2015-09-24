@@ -3,7 +3,7 @@ package com.ashish.annotation;
 /**
  * @Override annotation assures that the subclass method is overriding the parent class method.
  * If it is not so, compile time error occurs.
- * Sometimes, we does the silly mistake such as spelling mistakes etc. 
+ * Sometimes, we do the silly mistake such as spelling mistakes etc. 
  * So, it is better to mark @Override annotation that provides assurity that method is overridden.
 */
 class Animal{  
