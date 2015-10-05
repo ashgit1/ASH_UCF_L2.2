@@ -39,10 +39,8 @@ Thread(Runnable r,String name)
 
 Commonly used methods of Thread class:
 
-Commonly used methods of Thread class:
-
 public void run(): is used to perform action for a thread.
-public void start(): starts the execution of the thread.JVM calls the run() method on the thread.
+public void start(): starts the execution of the thread. JVM calls the run() method on the thread.
 public void sleep(long miliseconds): Causes the currently executing thread to sleep (temporarily cease execution) 
 for the specified number of milliseconds.
 
