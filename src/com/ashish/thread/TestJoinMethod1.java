@@ -30,4 +30,5 @@ class TestJoinMethod1 extends Thread {
 
 /**
  * As you can see in the above example,when t1 completes its task then t2 and t3 starts executing.
+ * All the threads will wait till this thread dies i.e finishes it's execution.
  */

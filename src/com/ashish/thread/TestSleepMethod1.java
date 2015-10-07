@@ -16,6 +16,7 @@ public class TestSleepMethod1 extends Thread{
 	public static void main(String[] args) {
 		TestSleepMethod1 t1 = new TestSleepMethod1();
 		TestSleepMethod1 t2 = new TestSleepMethod1();
+		//t2.setPriority(MAX_PRIORITY);
 		t1.start();
 		t2.start();
 	}

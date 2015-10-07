@@ -17,6 +17,6 @@ public void run(){
  * Since our class extends Thread Class it is a Thread. 
  * Only need to invoke the run() method via start() method.
  * When you create object of Thread1 class,your class constructor is invoked(provided by Compiler) 
- * fromwhere Thread class constructor is invoked(by super() as first statement).
+ * from where Thread class constructor is invoked(by super() as first statement).
  * So your Thread1 class object is thread object now.
  */

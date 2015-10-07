@@ -29,5 +29,7 @@ class TestJoinMethod2 extends Thread {
 }
 
 /**
- * In the above example,when t1 is completes its task for 1500 miliseconds(3 times) then t2 and t3 starts executing.
+ * In the above example, when t1 completes its task for 1500 milliseconds(3 times) then t2 and t3 starts executing.
+ * Means it will give 1500 ms for the thread t1 to complete its task.
+ * If not finished since we have done sleep(500) in run, after 1500 ms all threads will run parallel.
  */

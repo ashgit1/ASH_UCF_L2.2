@@ -28,4 +28,6 @@ class TestCallRun2 extends Thread {
 /**
  * As you can see in the above program that there is no context-switching because 
  * here t1 and t2 will be treated as normal object not thread object.
+ * Context-switching : Switching of the CPU from one process or thread to another
+ * maintaining state so that thread executes from the place it was left. 
  */

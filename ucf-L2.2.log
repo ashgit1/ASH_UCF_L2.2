@@ -60,3 +60,31 @@
 2015-09-24 15:45:39 INFO  InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
 2015-09-24 15:45:39 INFO  InheritedAnnotation:26 - 
 2015-09-24 15:45:39 INFO  InheritedAnnotation:27 - 
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:10 - Thread name : one
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:10 - Thread name : two
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:10 - Thread name : three
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:26 - Max priority: 10
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+2015-10-07 15:53:11 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:10 - Thread name : two
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:10 - Thread name : one
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:10 - Thread name : three
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:26 - Max priority: 10
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+2015-10-07 15:53:18 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:10 - Thread name : one
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:10 - Thread name : three
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:10 - Thread name : two
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:26 - Max priority: 10
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+2015-10-07 15:53:22 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:10 - Thread name : one
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:10 - Thread name : three
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:10 - Thread name : two
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:26 - Max priority: 10
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+2015-10-07 15:53:25 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
