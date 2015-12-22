@@ -1,0 +1,155 @@
+Synchronization in Java:
+-------------------------
+
+Synchronization in java is the capability to control the access of multiple threads to any shared resource.
+Java Synchronization is better option where we want to allow only one thread to access the shared resource.
+
+Why use Synchronization ?
+
+The synchronization is mainly used to:
+
+To prevent thread interference.
+To prevent consistency problem.
+
+Types of Synchronization:
+-------------------------
+
+There are two types of synchronization:
+
+Process Synchronization
+Thread Synchronization
+
+Here, we will discuss only thread synchronization.
+
+Thread Synchronization:
+-----------------------
+
+There are two types of thread synchronization mutual exclusive and inter-thread communication.
+
+Mutual Exclusive:
+-----------------
+1. Synchronized method.
+1. Synchronized block.
+3. static synchronization.
+
+Cooperation (Inter-thread communication in java)
+
+Mutual Exclusive:
+-----------------
+
+Mutual Exclusive helps keep threads from interfering with one another while sharing data.
+This can be done by three ways in java:
+
+by synchronized method
+by synchronized block
+by static synchronization
+
+Concept of Lock in Java:
+------------------------
+
+Synchronization is built around an internal entity known as the lock or monitor. 
+Every object has an lock associated with it. 
+By convention, a thread that needs consistent access to an object's fields has to acquire the object's 
+lock before accessing them, and then release the lock when it's done with them.
+
+From Java 5 the package "java.util.concurrent.locks" contains several lock implementations.
+
+Understanding the problem without Synchronization:
+--------------------------------------------------
+
+In this example, there is no synchronization, so output is inconsistent.
+Ex: WithOutSyncronization.java
+
+
+Java synchronized method:
+-------------------------
+
+If you declare any method as synchronized, it is known as synchronized method.
+Synchronized method is used to lock an object for any shared resource.
+When a thread invokes a synchronized method, it automatically acquires the lock for that object 
+and releases it when the thread completes its task.
+
+Ex: WithSyncronization.java
+
+Example of synchronized method by using annonymous class:
+---------------------------------------------------------
+
+annonymous class:
+-----------------
+
+A class that have no name is known as anonymous inner class in java. 
+It should be used if you have to override method of class or interface. 
+Java Anonymous inner class can be created by two ways:
+
+Class (may be abstract or concrete).
+Interface
+
+In this program, we have created the two threads by annonymous class, so less coding is required.
+
+ex: TestSynchronization3.java
+
+Synchronized block in java:
+---------------------------
+
+Synchronized block can be used to perform synchronization on any specific resource of the method.
+Suppose you have 50 lines of code in your method, but you want to synchronize only 5 lines, 
+you can use synchronized block.
+If you put all the codes of the method in the synchronized block, it will work same as the synchronized method.
+
+Points to remember for Synchronized block:
+------------------------------------------
+
+1. Synchronized block is used to lock an object for any shared resource.
+2. Scope of synchronized block is smaller than the method.
+
+Syntax to use synchronized block
+synchronized (object reference expression) {   
+  //code block   
+}  
+
+ex: SyncronizationBlock.java
+
+Same Example of synchronized block by using annonymous class:
+-------------------------------------------------------------
+
+http://www.javatpoint.com/synchronized-block-example/TestSynchronizedBlock2.java
+
+Static synchronization:
+-----------------------
+
+If you make any static method as synchronized, the lock will be on the class not on object.
+
+Diagram:
+--------
+http://www.javatpoint.com/static-synchronization-example
+
+Problem without static synchronization:
+---------------------------------------
+
+Suppose there are two objects of a shared class(e.g. Table) named object1 and object2.
+In case of synchronized method and synchronized block there cannot be interference between t1 and t2 
+or t3 and t4 because t1 and t2 both refers to a common object that have a single lock.
+But there can be interference between t1 and t3 or t2 and t4 because t1 acquires another lock and 
+t3 acquires another lock.I want no interference between t1 and t3 or t2 and t4.
+Static synchronization solves this problem.
+
+ex: StaticSynchronization.java
+
+Same example of static synchronization by annonymous class:
+-----------------------------------------------------------
+
+ex: http://www.javatpoint.com/static-synchronization-example/TestSynchronization5 .java
+
+Deadlock in java:
+------------------
+
+Deadlock in java is a part of multithreading. 
+Deadlock can occur in a situation when a thread is waiting for an object lock, 
+that is acquired by another thread and second thread is waiting for an object lock that is 
+acquired by first thread. Since, both threads are waiting for each other to release the lock, 
+the condition is called deadlock. 
+
+diagram: http://www.javatpoint.com/deadlock-in-java
+
+eg: TestDeadlockExample1.java
+

@@ -88,3 +88,35 @@
 2015-10-07 15:53:25 INFO  ThreadGroupDemo:26 - Max priority: 10
 2015-10-07 15:53:25 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
 2015-10-07 15:53:25 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
+2015-10-16 21:32:44 INFO  InheritedAnnotation:21 - 
+2015-10-16 21:32:44 INFO  InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+2015-10-16 21:32:44 INFO  InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+2015-10-16 21:32:44 INFO  InheritedAnnotation:24 - _________________________________
+2015-10-16 21:32:44 INFO  InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+2015-10-16 21:32:44 INFO  InheritedAnnotation:26 - 
+2015-10-16 21:32:44 INFO  InheritedAnnotation:27 - 
+2015-10-17 13:08:31 INFO  ExecutionProcedureRunner:18 - true
+2015-10-17 13:09:25 INFO  TestAssertionRunner:18 - Failure Count : 0
+2015-10-17 13:09:25 INFO  TestAssertionRunner:19 - true
+2015-10-17 13:09:53 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): expected same:<abc> was not:<abc1>
+2015-10-17 13:09:53 INFO  TestAssertionRunner:18 - Failure Count : 1
+2015-10-17 13:09:53 INFO  TestAssertionRunner:19 - false
+2015-10-17 13:10:31 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): arrays first differed at element [2]; expected:<three[]> but was:<three[e]>
+2015-10-17 13:10:31 INFO  TestAssertionRunner:18 - Failure Count : 1
+2015-10-17 13:10:31 INFO  TestAssertionRunner:19 - false
+2015-10-18 08:42:20 INFO  SumOfIntegers:22 - Time taken in ms: 318 , Sum: -1243309312
+2015-10-18 08:42:38 INFO  SumOfIntegers:22 - Time taken in ms: 0 , Sum: 45
+2015-10-18 08:42:52 INFO  SumOfIntegers:22 - Time taken in ms: 0 , Sum: 4950
+2015-10-18 08:43:00 INFO  SumOfIntegers:22 - Time taken in ms: 0 , Sum: 49995000
+2015-10-18 08:43:07 INFO  SumOfIntegers:22 - Time taken in ms: 33 , Sum: 887459712
+2015-10-18 08:48:06 INFO  TestWrapper:21 - n1 : 167
+2015-10-18 08:48:06 INFO  TestWrapper:22 - n2 : 119
+2015-10-18 08:48:06 INFO  TestWrapper:23 - n3 : 
+2015-10-18 08:48:06 INFO  TestWrapper:24 - n4 : 167
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:10 - Thread name : two
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:10 - Thread name : three
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:10 - Thread name : one
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:26 - Max priority: 10
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+2015-10-18 09:58:53 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup

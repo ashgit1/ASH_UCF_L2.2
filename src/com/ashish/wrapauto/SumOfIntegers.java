@@ -17,7 +17,7 @@ public class SumOfIntegers {
 
 	public static void main(String[] args) {
 		long start = System.currentTimeMillis();
-		int sum = sumOfIntegerUptoN(1000000000);
+		int sum = sumOfIntegerUptoN(100000000);
 		long end = System.currentTimeMillis();
 		logger.info("Time taken in ms: " + (end - start) + " , Sum: " + sum);
 	}

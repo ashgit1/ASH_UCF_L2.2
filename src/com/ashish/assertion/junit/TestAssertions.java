@@ -16,7 +16,7 @@ public class TestAssertions {
       int val1 = 5;
       int val2 = 6;
       String[] expectedArray = {"one", "two", "three"};
-      String[] resultArray =  {"one", "two", "three"};
+      String[] resultArray =  {"one", "two", "threee"};
 
       //Check that two objects are equal
       assertEquals(str1, str2);

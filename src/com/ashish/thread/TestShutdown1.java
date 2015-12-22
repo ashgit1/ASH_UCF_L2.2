@@ -2,6 +2,7 @@ package com.ashish.thread;
 
 class MyThread extends Thread {
 	public void run() {
+		System.out.println("Some clean up activity can be performed here");
 		System.out.println("shut down hook task completed..");
 	}
 }

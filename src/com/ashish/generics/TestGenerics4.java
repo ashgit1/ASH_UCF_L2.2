@@ -17,8 +17,8 @@ public class TestGenerics4 {
 		printArray(floatArray);
 	}
 
-	public static <E> void printArray(E[] arrayElements){
-		for(E element : arrayElements){
+	public static <Any> void printArray(Any[] arrayElements){
+		for(Any element : arrayElements){
 			System.out.print(element + " ");
 		}
 		System.out.println();

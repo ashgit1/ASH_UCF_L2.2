@@ -1,0 +1,31 @@
+A program will terminate only when all user threads stop running.
+Which implementation of the List interface produces the slowest access to an element : LinkedList.
+You can't override a method to be more private than its super class.
+Target(ElementType.AutoVariable) : not a valid target annotation.
+
+Enums can be compared and serialized.
+enum can't be abstract any time.
+
+insertion and deletion is easy in LinkedList  than ArrayList.
+session instance is derived from session factory.
+in case of assertions we should keep the code in such a place that the code doesn't reach.
+if we want to write the junit for a private method then either we need to make the method as public or protected.
+	
+REST offers no session management,no QoS guarantees.
+Hibernate is java based middleware which enables to create the ORMapping model.
+JSON is lessweighed,userfriendly,platform independent.
+
+MIME media type conforms to which annotations : @Produces
+Which annotation type tell that it is used for multiple classes : META
+Which one is the data element for URN in REST: resource identifier
+resource identifier- URL, URN .
+
+In Hibernate, Which state is not valid instance state : Volatile.
+We can tell the vm to enable assertions for one class and disable assertions for the other class.
+
+we should not use setSize() in Listener.
+
+
+
+
+

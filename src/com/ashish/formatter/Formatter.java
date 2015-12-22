@@ -30,3 +30,7 @@ public static void main(String[] args) {
 		System.out.println("############### EXAM OVER #############");
 	}
 }
+
+/**
+ * d: integer, s: string, f: float
+ */

@@ -148,7 +148,7 @@ int value1();
 String value2();  
 }  
 
-How built-in annotaions are used in real scenario?
+How built-in annotations are used in real scenario?
 In real scenario, java programmer only need to apply annotation. 
 He/She doesn't need to create and access annotation. 
 Creating and Accessing annotation is performed by the implementation provider.

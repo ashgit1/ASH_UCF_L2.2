@@ -8,9 +8,9 @@ public class CreatePropertiesFile {
 
 		Properties p = new Properties();
 		p.setProperty("name", "Ashishkumar Gupta");
-		p.setProperty("email", "adoreashish@gmail.com");
+		p.setProperty("email", "ashishkumar.gupta@wipro.com");
 
-		p.store(new FileWriter("info.properties"),"Example for creating proerties files");
+		p.store(new FileWriter("info.properties"),"Example for creating properties files");
 
 	}
 }

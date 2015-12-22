@@ -14,7 +14,7 @@ public class Autoboxing {
 		Integer a3 = 5;// Boxing
 		System.out.println("Boxing: " + a2 + " " + a3);
 		
-		Integer i=new Integer(50);  
+		Integer i=new Integer(55);  
         int b=i;  // Un boxing
         System.out.println("UnBoxing: " + b);  
 	}

@@ -15,6 +15,6 @@ class StatesEnum {
 	
 	@SuppressWarnings("static-access")
 	public static void main(String[] args) {
-		System.out.println(s.Kerala.city + " " + s.Karnataka.city);	
+		System.out.println(States.Kerala.city + " " + s.Karnataka.city + " " + s.Maharashtra.city);	
 	}
 }

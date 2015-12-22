@@ -31,8 +31,11 @@ The assertArrayEquals() method will test whether two arrays are equal to each ot
 -------------------------------------------------------------------------------------
 
 JUnit Annotation:
+-----------------
+
 Annotations are like meta-tags that you can add to you code and apply them to methods or in class. 
-These annotation in JUnit gives us information about test methods , which methods are going to run before & after test methods,
+These annotation in JUnit gives us information about test methods , 
+which methods are going to run before & after test methods,
 which methods run before & after all the methods, which methods or class will be ignore during execution.
 
 List of annotations and their meaning in JUnit :

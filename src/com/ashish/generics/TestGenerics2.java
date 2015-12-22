@@ -8,7 +8,7 @@ public class TestGenerics2 {
 		Map<Integer, String> map = new TreeMap<Integer, String>();
 		map.put(1, "vijay");
 		map.put(4, "umesh");
-		map.put(2, "Ashish");
+		map.put(3, "Ashish");
 		map.put(2, "Ashu");
 
 		// Now use Map.Entry for Set and Iterator

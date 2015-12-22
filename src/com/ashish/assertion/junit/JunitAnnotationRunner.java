@@ -8,8 +8,8 @@ public class JunitAnnotationRunner {
    public static void main(String[] args) {
       Result result = JUnitCore.runClasses(JunitAnnotation.class);
       for (Failure failure : result.getFailures()) {
-         System.out.println(failure.toString());
+         System.out.println(":" + failure.toString());
       }
-      System.out.println(result.wasSuccessful());
+      System.out.println("status: " + result.wasSuccessful());
    }
 } 
