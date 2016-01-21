@@ -5,16 +5,16 @@ import java.util.ArrayList;
 /**
  * @SuppressWarnings annotation: is used to suppress warnings issued by the compiler.
 */
-@SuppressWarnings("unchecked")
 public class TestAnnotation2 {
 	
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 	
 		ArrayList list=new ArrayList();  
 		list.add("sonoo");  
 		list.add("vimal");  
 		list.add("ratan");  
+		list.add(10);
 		  
 		for(Object obj:list)  
 		System.out.println(obj); 	

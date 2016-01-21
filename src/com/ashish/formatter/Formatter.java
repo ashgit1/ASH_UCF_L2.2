@@ -25,7 +25,7 @@ public static void main(String[] args) {
 		System.out.println("---------------------------------------");
 		System.out.printf("%s %d %n", "Ashish's Total: ", 254);
 		System.out.println("---------------------------------------");
-		System.out.printf("%s %f %n","Percentage :",75.52);
+		System.out.printf("%s %.2f %n","Percentage :",75.527);
 		System.out.println("---------------------------------------");
 		System.out.println("############### EXAM OVER #############");
 	}

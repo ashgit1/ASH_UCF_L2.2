@@ -14,8 +14,10 @@ public class ExecutionProcedureRunner {
 		 Result result = JUnitCore.runClasses(ExecutionProcedureJunit.class);
 	      for (Failure failure : result.getFailures()) {
 	         logger.error(failure.toString());
+	         System.out.println(failure.toString());
 	      }
 	      logger.info(result.wasSuccessful());
+	         System.out.println(result.wasSuccessful());
 	}
 
 }

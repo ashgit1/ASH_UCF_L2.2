@@ -120,3 +120,62 @@
 2015-10-18 09:58:53 INFO  ThreadGroupDemo:26 - Max priority: 10
 2015-10-18 09:58:53 INFO  ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
 2015-10-18 09:58:53 INFO  ThreadGroupDemo:28 - Name: Parent ThreadGroup
+23:34:08,181 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): arrays first differed at element [2]; expected:<three[]> but was:<three[e]>
+23:34:08,183  INFO TestAssertionRunner:18 - Failure Count : 1
+23:34:08,183  INFO TestAssertionRunner:19 - false
+23:35:57,338 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): arrays first differed at element [2]; expected:<three[]> but was:<three[e]>
+23:35:57,340  INFO TestAssertionRunner:18 - Failure Count : 1
+23:35:57,341  INFO TestAssertionRunner:19 - false
+23:37:17,154 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): arrays first differed at element [2]; expected:<three[]> but was:<three[e]>
+23:37:17,157  INFO TestAssertionRunner:18 - Failure Count : 1
+23:37:17,157  INFO TestAssertionRunner:19 - false
+23:39:11,993  INFO TestAssertionRunner:18 - Failure Count : 0
+23:39:11,995  INFO TestAssertionRunner:19 - true
+23:42:02,232 ERROR TestJunit:17 - testIgnore(com.ashish.assertion.junit.TestJunit): expected:<5> but was:<10>
+23:42:02,234  INFO TestJunit:19 - false
+23:42:30,817  INFO TestJunit:19 - true
+19:05:03,578  INFO SumOfIntegers:22 - Time taken in ms: 32 , Sum: 887459712
+19:05:18,677  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 4950
+19:05:25,108  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 45
+19:05:33,627  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 45
+19:05:38,239  INFO SumOfIntegers:22 - Time taken in ms: 33 , Sum: 887459712
+19:08:03,205  INFO TestWrapper:20 - n1 : 167
+19:08:03,208  INFO TestWrapper:21 - n2 : 119
+19:08:03,208  INFO TestWrapper:22 - n3 : 
+19:08:03,209  INFO TestWrapper:23 - n4 : 167
+19:17:50,767  INFO TestWrapper:20 - n1 : 167
+19:17:50,769  INFO TestWrapper:21 - n2 : 7
+19:17:50,769  INFO TestWrapper:22 - n3 : 
+19:17:50,769  INFO TestWrapper:23 - n4 : 167
+19:18:00,726  INFO TestWrapper:20 - n1 : 167
+19:18:00,729  INFO TestWrapper:21 - n2 : 15
+19:18:00,730  INFO TestWrapper:22 - n3 : 
+19:18:00,730  INFO TestWrapper:23 - n4 : 167
+19:18:10,194  INFO TestWrapper:20 - n1 : 167
+19:18:10,197  INFO TestWrapper:21 - n2 : 15
+19:18:10,197  INFO TestWrapper:22 - n3 : 
+19:18:10,197  INFO TestWrapper:23 - n4 : 167
+19:18:25,146  INFO TestWrapper:20 - n1 : 167
+19:18:25,150  INFO TestWrapper:21 - n2 : 15
+19:18:25,150  INFO TestWrapper:22 - n3 : 
+19:18:25,150  INFO TestWrapper:23 - n4 : 167
+19:19:04,395  INFO TestWrapper:20 - n1 : 167
+19:19:04,397  INFO TestWrapper:21 - n2 : 1
+19:19:04,398  INFO TestWrapper:22 - n3 : 
+19:19:04,398  INFO TestWrapper:23 - n4 : 167
+19:19:10,460  INFO TestWrapper:20 - n1 : 167
+19:19:10,462  INFO TestWrapper:21 - n2 : 0
+19:19:10,463  INFO TestWrapper:22 - n3 : 
+19:19:10,463  INFO TestWrapper:23 - n4 : 167
+19:19:33,423  INFO TestWrapper:20 - n1 : 167
+19:19:33,426  INFO TestWrapper:21 - n2 : 119
+19:19:33,427  INFO TestWrapper:22 - n3 : 
+19:19:33,427  INFO TestWrapper:23 - n4 : 167
+19:19:45,600  INFO TestWrapper:20 - n1 : 167
+19:19:45,602  INFO TestWrapper:21 - n2 : 359
+19:19:45,602  INFO TestWrapper:22 - n3 : 
+19:19:45,602  INFO TestWrapper:23 - n4 : 167
+19:19:53,224  INFO TestWrapper:20 - n1 : 167
+19:19:53,226  INFO TestWrapper:21 - n2 : 119
+19:19:53,227  INFO TestWrapper:22 - n3 : 
+19:19:53,227  INFO TestWrapper:23 - n4 : 167

@@ -3,7 +3,7 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 /** 
- * Counts the number of times the word "cats" appears in the input string.
+ * Counts the number of times the word "cat" appears in the input string.
  * This example uses word boundaries(\b) to ensure that the letters "c" "a" "t" are not merely a substring in a longer word.
  * The find() finds the next subsequence of the input sequence that matches the pattern.
  * The start() method returns the start index of the subsequence.

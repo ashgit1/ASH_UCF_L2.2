@@ -23,10 +23,8 @@ public class ReadFileToken {
 
 				while (stringTokenizer.hasMoreElements()) {
 
-					int id = Integer.parseInt(stringTokenizer.nextElement()
-							.toString());
-					double price = Double.parseDouble(stringTokenizer
-							.nextElement().toString());
+					int id = Integer.parseInt(stringTokenizer.nextElement().toString());
+					double price = Double.parseDouble(stringTokenizer.nextElement().toString());
 					String username = stringTokenizer.nextElement().toString();
 
 					StringBuilder sb = new StringBuilder();

@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class WOGenerics {
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static void main(String[] args) {
 		
 		List list = new ArrayList();  

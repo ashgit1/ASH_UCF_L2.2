@@ -6,12 +6,15 @@ Since JDK 1.5, Conversion from primitive types to corresponding wrapper objects 
 What is Widening?
 Widening is transforming a variable in another with a wider type.
 Widening can be done with primitive or reference types.
+(*)But widening of reference(wrapper) variable depends upon inheritance.
 
 For example :
 String -> Object
 int -> long
 
 Rules:
+------
+
 1. Widening wins over boxing and var-args
 2. Boxing wins over var-args
 3. Widening of reference variable depends on inheritance(so, Integer cannot be widened to Long. But, Integer widened to Number).

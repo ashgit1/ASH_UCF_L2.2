@@ -4,8 +4,7 @@ package com.ashish.collection;
  * What will be the output on compiling and executing the below code ?
 */		
 
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class TestSet {
 	@SuppressWarnings({ "rawtypes", "unchecked" })

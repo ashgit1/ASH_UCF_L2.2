@@ -8,9 +8,9 @@ XML and java marker interfaces.
 There are several built-in annotations in java. Some annotations are applied to java code and some to other annotations.
 
 Built-In Java Annotations used in java code:
-@Override
-@SuppressWarnings
-@Deprecated
+@Override			-- Marker Annotation
+@SuppressWarnings	-- Single Values Annotation (String[] value)
+@Deprecated			-- Marker Annotation
 
 Built-In Java Annotations used in other annotations:
 @Target

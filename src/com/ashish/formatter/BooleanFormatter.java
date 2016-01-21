@@ -11,3 +11,7 @@ public class BooleanFormatter {
 
 	}
 }
+
+/**
+ * http://www.programmerinterview.com/index.php/java-questions/java-whats-the-difference-between-equals-and/
+ */

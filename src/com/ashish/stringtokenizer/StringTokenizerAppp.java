@@ -16,7 +16,7 @@ public class StringTokenizerAppp {
 		String str = "This is String , split by StringTokenizer, created by Ashish.";
 		StringTokenizer st = new StringTokenizer(str);
 
-		System.out.println("-------------- Split by space ---------------");
+		System.out.println("-------------- Split by space(default) ---------------");
 		while (st.hasMoreElements()) {
 			System.out.println(st.nextToken());
 		}

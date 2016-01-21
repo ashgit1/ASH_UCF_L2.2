@@ -1,0 +1,18 @@
+Counts the number of times the word "cat" appears in the input string.
+This example uses word boundaries(\b) to ensure that the letters "c" "a" "t" are not merely a substring in a longer word.
+The find() finds the next subsequence of the input sequence that matches the pattern.
+The start() method returns the start index of the subsequence.
+The end() returns the index of the last character matched, plus one.
+
+\d	Matches digits. Equivalent to [0-9].
+\D	Matches nondigits.
+\A	Matches beginning of string.
+\b	Matches word boundaries (cat caty[1 cat])
+\B	Matches nonword boundaries. (cat caty[2 cat]) 
+re*	Matches 0 or more occurrences of preceding expression.
+
+The matches() and lookingAt() methods both attempt to match an input sequence against a pattern. 
+The difference, however, is that matches requires the entire input sequence to be matched, while lookingAt does not.
+The replaceFirst() and replaceAll() methods replace text that matches a given regular expression. 
+As their names indicate, replaceFirst replaces the first occurrence, and replaceAll replaces all occurrences.
+The Matcher class also provides appendReplacement() and appendTail() methods for text replacement.

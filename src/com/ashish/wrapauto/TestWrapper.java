@@ -10,11 +10,10 @@ public class TestWrapper {
 	
 	final static Logger logger = Logger.getLogger(TestWrapper.class);
 	
-	@SuppressWarnings("unused")
 	public static void main(String[] args) {
 		Long l = new Long(167);
 		long n1 = l.longValue();
-		long n2 = (long) Long.parseLong("167", 8);
+		long n2 = (long) Long.parseLong("167", 8);  // base 8. --> 1*8^2 + 6*8^1 + 7*8^0 = 119
 		//long n3 = Long.parseLong(167);		// error at line 6 since it expects String value.
 		long n4 = Long.parseLong("167");
 		
