@@ -13,9 +13,9 @@ public class TestShutdown1 {
 		Runtime r = Runtime.getRuntime();		// Returns an instance of a Class i.e factory method.
 		r.addShutdownHook(new MyThread());		// Associates this thread with JVM.
 
-		System.out.println("Now main sleeping ... press ctrl+c to exit");
+		System.out.println("Now main sleeping ... press ctrl+c to exit before time runs out");
 		try {
-			Thread.sleep(3000);
+			Thread.sleep(5000);
 		} catch (Exception e) {
 		}
 	}

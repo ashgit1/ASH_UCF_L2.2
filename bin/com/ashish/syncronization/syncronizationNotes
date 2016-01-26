@@ -5,7 +5,7 @@ Synchronization in java is the capability to control the access of multiple thre
 Java Synchronization is better option where we want to allow only one thread to access the shared resource.
 
 What is monitor in multi threading ?
-In concurrent programming, a monitor is an object or module intended to be used safely by more than one thread
+In concurrent programming, a monitor is an object or module intended to be used safely by more than one thread.
 
 
 Why use Synchronization ?
@@ -30,13 +30,14 @@ Thread Synchronization:
 
 There are two types of thread synchronization mutual exclusive and inter-thread communication.
 
-Mutual Exclusive:
+A. Mutual Exclusive:
 -----------------
 1. Synchronized method.
 1. Synchronized block.
 3. static synchronization.
 
-Cooperation (Inter-thread communication in java)
+B. Cooperation (Inter-thread communication in java):
+----------------------------------------------------
 
 Mutual Exclusive:
 -----------------
@@ -73,7 +74,7 @@ Synchronized method is used to lock an object for any shared resource.
 When a thread invokes a synchronized method, it automatically acquires the lock for that object 
 and releases it when the thread completes its task.
 
-Ex: WithSyncronization.java
+Ex: WithSynchronization.java
 
 Example of synchronized method by using annonymous class:
 ---------------------------------------------------------
@@ -83,6 +84,16 @@ annonymous class:
 
 A class that have no name is known as anonymous inner class in java. 
 It should be used if you have to override method of class or interface. 
+eg: Runnable Interface.
+
+Runnable r = new Runnable(){
+	public void run(){}
+}
+
+Thread t1 = new Thread() {
+	public void run() {}
+}
+
 Java Anonymous inner class can be created by two ways:
 
 Class (may be abstract or concrete).
@@ -159,6 +170,8 @@ static void printTable(int n) {
         // ...  
     }  
 } 
+
+eg: StaticSynchronization.java
 
 Deadlock in java:
 ------------------

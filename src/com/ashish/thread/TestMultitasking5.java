@@ -1,6 +1,7 @@
 package com.ashish.thread;
 
 public class TestMultitasking5 {
+
 	public static void main(String args[]) {
 		Runnable r1 = new Runnable() {
 			public void run() {

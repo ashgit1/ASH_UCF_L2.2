@@ -3,6 +3,8 @@ A thread is a lightweight sub process, a smallest unit of processing. It is a se
 Threads are independent, if there occurs exception in one thread, it doesn't affect other threads.
 It shares a common memory area.
 
+http://www.javatpoint.com/multithreading-in-java
+
 Life cycle of a Thread (Thread States):
 1) New:
 The thread is in new state if you create an instance of Thread class but before the invocation of start() method.
@@ -39,8 +41,8 @@ Thread(Runnable r,String name)
 
 Commonly used methods of Thread class:
 
-public void run(): is used to perform action for a thread.
 public void start(): starts the execution of the thread. JVM calls the run() method on the thread.
+public void run(): is used to perform action for a thread.
 public void sleep(long miliseconds): Causes the currently executing thread to sleep (temporarily cease execution) 
 for the specified number of milliseconds.
 
@@ -208,7 +210,7 @@ Real time usage:
 
 It is used in Servlet and JSP where container creates a thread pool to process the request.
 
-Ex: TestThreadPool.java and WorkerThrad.java [this example is not clear]
+Ex: TestThreadPool.java and WorkerThread.java [this example is not clear]
 http://www.javatpoint.com/java-thread-pool
 -------------------------------------------------------------------------------------
 
@@ -280,7 +282,7 @@ run()  : StackC (t2 thread)
 How to perform multiple tasks by multiple threads (multitasking in multithreading)?
 
 If you have to perform multiple tasks by multiple threads,have multiple run() methods.
-For example: TestMultitasking3.java and TestMultitasking4.java
+For example: TestMultitasking3.java and TestMultitasking5.java
 Program of performing two tasks by two threads.
 
 Same example as above by annonymous class that implements Runnable interface:

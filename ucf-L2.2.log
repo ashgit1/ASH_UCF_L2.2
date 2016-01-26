@@ -179,3 +179,10 @@
 19:19:53,226  INFO TestWrapper:21 - n2 : 119
 19:19:53,227  INFO TestWrapper:22 - n3 : 
 19:19:53,227  INFO TestWrapper:23 - n4 : 167
+19:57:10,280  INFO ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+19:57:10,280  INFO ThreadGroupDemo:10 - Thread name : three
+19:57:10,280  INFO ThreadGroupDemo:10 - Thread name : one
+19:57:10,280  INFO ThreadGroupDemo:10 - Thread name : two
+19:57:10,282  INFO ThreadGroupDemo:26 - Max priority: 10
+19:57:10,284  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+19:57:10,284  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup

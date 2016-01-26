@@ -18,7 +18,7 @@ class TestJoinMethod1 extends Thread {
 		TestJoinMethod1 t3 = new TestJoinMethod1();
 		t1.start();
 		try {
-			t1.join();    // the running thread waits until t1 completes it's task.
+			t1.join();    // all the running threads wait until t1 completes it's task.
 		} catch (Exception e) {
 			System.out.println(e);
 		}
