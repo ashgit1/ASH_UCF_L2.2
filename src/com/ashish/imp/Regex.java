@@ -4,7 +4,7 @@ import java.util.regex.*;
 
 public class Regex {
 	public final static String PATTERN = "\\w+";
-	public final static String INPUT_STRING = "Java is an easy language";
+	public final static String INPUT_STRING = "Java    is an easy language";
 
 	public static void main(String[] args) {
 		Pattern p = Pattern.compile(PATTERN);

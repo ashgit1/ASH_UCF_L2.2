@@ -238,12 +238,12 @@ http://www.javatpoint.com/inter-thread-communication-example
 
 The point to point explanation of the above diagram is as follows:
 
-Threads enter to acquire lock.
-Lock is acquired by on thread.
-Now thread goes to waiting state if you call wait() method on the object. Otherwise it releases the lock and exits.
-If you call notify() or notifyAll() method, thread moves to the notified state (runnable state).
-Now thread is available to acquire lock.
-After completion of the task, thread releases the lock and exits the monitor state of the object.
+1. Threads enter to acquire lock.
+2. Lock is acquired by on thread.
+3. Now thread goes to waiting state if you call wait() method on the object. Otherwise it releases the lock and exits.
+4. If you call notify() or notifyAll() method, thread moves to the notified state (runnable state).
+5. Now thread is available to acquire lock.
+6. After completion of the task, thread releases the lock and exits the monitor state of the object.
 
 Question:
 ---------

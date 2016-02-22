@@ -10,6 +10,7 @@ public class TestQueueList {
 		Queue q = new LinkedList();
         q.offer("B");
         q.offer("C");
+        q.offer("A");
         q.offer("D");
         System.out.println(q);
 

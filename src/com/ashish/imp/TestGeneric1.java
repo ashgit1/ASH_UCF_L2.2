@@ -14,8 +14,8 @@ public class TestGeneric1 {
         public void add(T t1) {
        	    System.out.println(t1);
        	    return t1;
-       	  }
-*/
+       	  }*/
+		
 		
 	}
 

@@ -15,7 +15,7 @@ public class TestSeason {
 	}
 
 	public static void main(String[] args) {
-		System.out.println(Seasons.SUMMER.nature + " " + Seasons.SPRING + " " + Seasons.WINTER);
+		System.out.println(Seasons.SUMMER.nature + " " + Seasons.SPRING.nature + " " + Seasons.WINTER.nature);
 	}
 }
 

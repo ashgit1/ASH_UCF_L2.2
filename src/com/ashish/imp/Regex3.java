@@ -15,6 +15,7 @@ public class Regex3 {
 
 		boolean b = false;
 		while (b = m.find()) {
+			/*System.out.println(m.start() + ", " + m.end());*/
 			System.out.print(m.group());
 		}
 	}

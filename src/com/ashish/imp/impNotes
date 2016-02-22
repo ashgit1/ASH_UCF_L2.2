@@ -25,6 +25,15 @@ We can tell the vm to enable assertions for one class and disable assertions for
 
 we should not use setSize() in Listener.
 
+----------------------------------------------------------------
+Programs to re-consider:
+----------------------------------------------------------------
+
+1. EnumDemo.java
+2. EnumDemoSeason.java
+
+
+
 
 
 

@@ -186,3 +186,10 @@
 19:57:10,282  INFO ThreadGroupDemo:26 - Max priority: 10
 19:57:10,284  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
 19:57:10,284  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup
+11:01:26,150  INFO InheritedAnnotation:21 - 
+11:01:26,197  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+11:01:26,210  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+11:01:26,211  INFO InheritedAnnotation:24 - _________________________________
+11:01:26,211  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+11:01:26,212  INFO InheritedAnnotation:26 - 
+11:01:26,212  INFO InheritedAnnotation:27 - 

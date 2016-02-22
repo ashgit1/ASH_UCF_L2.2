@@ -9,6 +9,7 @@ public class Demo {
 		// TODO Auto-generated method stub
 		Integer i1 = 128 + 128;
 		Integer i2 = 256;
+		/*i2=i1;*/
 		System.out.println(i1.equals(i2));
 		System.out.println(i1 == i2);
 	}
