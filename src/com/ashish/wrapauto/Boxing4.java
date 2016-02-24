@@ -12,12 +12,12 @@ class Boxing4 {
 	}
 	
 	static void m(Long l) {
-		System.out.println("Long");
+		System.out.println("Widening and Boxing");
 	}
 	
 	// Comment the below method...
-	static void m(Integer I){
-		System.out.println("Integer");
+	static void m(long I){
+		System.out.println("Widening");
 	}
 
 }

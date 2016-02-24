@@ -193,3 +193,40 @@
 11:01:26,211  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
 11:01:26,212  INFO InheritedAnnotation:26 - 
 11:01:26,212  INFO InheritedAnnotation:27 - 
+11:55:24,236  INFO InheritedAnnotation:21 - 
+11:55:24,242  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+11:55:24,243  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+11:55:24,244  INFO InheritedAnnotation:24 - _________________________________
+11:55:24,244  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+11:55:24,244  INFO InheritedAnnotation:26 - 
+11:55:24,244  INFO InheritedAnnotation:27 - 
+11:55:52,676  INFO InheritedAnnotation:21 - 
+11:55:52,682  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+11:55:52,683  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+11:55:52,683  INFO InheritedAnnotation:24 - _________________________________
+11:55:52,683  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+11:55:52,684  INFO InheritedAnnotation:26 - 
+11:55:52,684  INFO InheritedAnnotation:27 - 
+10:11:22,888  INFO SumOfIntegers:22 - Time taken in ms: 51 , Sum: 887459712
+10:11:36,216  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 45
+10:11:42,175  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 4950
+10:11:46,957  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 499500
+10:11:52,106  INFO SumOfIntegers:22 - Time taken in ms: 1 , Sum: 49995000
+10:15:54,300  INFO TestWrapper:20 - n1 : 167
+10:15:54,303  INFO TestWrapper:21 - n2 : 119
+10:15:54,303  INFO TestWrapper:22 - n3 : 
+10:15:54,303  INFO TestWrapper:23 - n4 : 167
+10:18:38,123  INFO TestWrapper:20 - n1 : 167
+10:18:38,126  INFO TestWrapper:21 - n2 : 359
+10:18:38,126  INFO TestWrapper:22 - n3 : 
+10:18:38,126  INFO TestWrapper:23 - n4 : 167
+10:18:45,915  INFO TestWrapper:20 - n1 : 167
+10:18:45,918  INFO TestWrapper:21 - n2 : 119
+10:18:45,918  INFO TestWrapper:22 - n3 : 
+10:18:45,918  INFO TestWrapper:23 - n4 : 167
+10:21:57,275  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 3 , Sum: 49995000
+10:22:04,445  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 49995000
+10:22:08,012  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 49995000
+10:22:11,394  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 49995000
+10:22:25,583  INFO SumOfIntegers:22 - Time taken in ms: 2 , Sum: 704982704
+10:22:29,308  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 16 , Sum: 704982704

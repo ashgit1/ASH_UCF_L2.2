@@ -11,6 +11,10 @@ public class VarArgsTest {
 	public void invoke(Float f, float... g) {
 		System.out.println("Float and variable args invoked");
 	}
+	
+	public void invoke(float f, float g) {
+		System.out.println("float and float args invoked");
+	}
 
 	public static void main(String[] args) {
 		new VarArgsTest().invoke(67.3f, 27.8f);

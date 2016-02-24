@@ -9,8 +9,12 @@ Widening can be done with primitive or reference types.
 (*)But widening of reference(wrapper) variable depends upon inheritance.
 
 For example :
+(primitives)
 String -> Object
 int -> long
+
+(Wrapper)
+Integer -> Number (Since Integer extends Number)
 
 Rules:
 ------

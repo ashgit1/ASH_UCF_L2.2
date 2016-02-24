@@ -1,6 +1,6 @@
-/*package com.ashish.lamda;
+package com.ashish.lamda;
 
-@FunctionalInterface
+/*@FunctionalInterface
 interface MyFuncInterface {
 	long compute(int data1, long data2);
 }
