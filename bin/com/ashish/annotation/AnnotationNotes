@@ -49,7 +49,7 @@ The @Override and @Deprecated are marker annotations.
 
 2) Single-Value Annotation:
 An annotation that has one method, is called single-value annotation. For example:
-o
+
 @interface MyAnnotation{  
 int value();  
 }  

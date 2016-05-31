@@ -187,8 +187,8 @@ e.g. age then we can declare the age data member as transient.
 Example of Java Transient Keyword:
 ----------------------------------
 
-In this example, we have created the two classes Student and PersistExample. 
-The age data member of the Student class is declared as transient, its value will not be serialized.
+In this example, we have created the two classes Employee and PersistExample. 
+The age data member of the Employee class is declared as transient, its value will not be serialized.
 
 "If you deserialize the object, you will get the default value for transient variable."
 

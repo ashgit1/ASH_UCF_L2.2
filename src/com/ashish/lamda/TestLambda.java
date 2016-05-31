@@ -1,6 +1,6 @@
 package com.ashish.lamda;
 
-/*@FunctionalInterface
+@FunctionalInterface
 interface MyFuncInterface {
 	long compute(int data1, long data2);
 }
@@ -11,4 +11,4 @@ public class TestLambda {
 		// Call the lamda expression by invoking the method of the implemented interface
 		System.out.println(mfi.compute(11, 22));  							   
 		}
-}*/
+}

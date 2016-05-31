@@ -39,6 +39,7 @@ which methods are going to run before & after test methods,
 which methods run before & after all the methods, which methods or class will be ignore during execution.
 
 List of annotations and their meaning in JUnit :
+------------------------------------------------
 
 1	@Test
 The Test annotation tells JUnit that the public void method to which it is attached can be run as a test case.

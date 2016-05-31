@@ -5,6 +5,7 @@ public class TestGarbage1 {
 		System.out.println("object is garbage collected");
 	}
 
+	@SuppressWarnings("unused")
 	public static void main(String args[]) {
 		TestGarbage1 s1 = new TestGarbage1();
 		TestGarbage1 s2 = new TestGarbage1();

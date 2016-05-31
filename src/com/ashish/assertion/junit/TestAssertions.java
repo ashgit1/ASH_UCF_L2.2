@@ -37,7 +37,7 @@ public class TestAssertions {
       assertSame(str4,str5);
       
       //Check if two object references not point to the same object
-      assertNotSame(str1,str3);
+      assertNotSame(str1,str5);
       
       //Check whether two arrays are equal to each other.
       assertArrayEquals(expectedArray, resultArray);

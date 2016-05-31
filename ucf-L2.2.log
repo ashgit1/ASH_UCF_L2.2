@@ -230,3 +230,77 @@
 10:22:11,394  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 49995000
 10:22:25,583  INFO SumOfIntegers:22 - Time taken in ms: 2 , Sum: 704982704
 10:22:29,308  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 16 , Sum: 704982704
+13:12:12,104  INFO InheritedAnnotation:21 - 
+13:12:12,168  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+13:12:12,178  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+13:12:12,179  INFO InheritedAnnotation:24 - _________________________________
+13:12:12,179  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+13:12:12,180  INFO InheritedAnnotation:26 - 
+13:12:12,180  INFO InheritedAnnotation:27 - 
+13:34:29,165  INFO TestJunit:19 - true
+13:34:39,918 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<...unit is working fine[]> but was:<...unit is working fine[f]>
+13:34:39,920  INFO TestJunit:19 - false
+13:34:52,570  INFO TestJunit:19 - true
+17:18:22,608  INFO ExecutionProcedureRunner:19 - true
+17:20:32,942  INFO TestAssertionRunner:18 - Failure Count : 0
+17:20:32,946  INFO TestAssertionRunner:19 - true
+17:21:10,534  INFO TestJunit:19 - true
+22:39:00,399  INFO InheritedAnnotation:21 - 
+22:39:00,423  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+22:39:00,425  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+22:39:00,426  INFO InheritedAnnotation:24 - _________________________________
+22:39:00,426  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+22:39:00,427  INFO InheritedAnnotation:26 - 
+22:39:00,427  INFO InheritedAnnotation:27 - 
+23:25:20,445  INFO ExecutionProcedureRunner:19 - true
+23:28:53,059  INFO TestAssertionRunner:18 - Failure Count : 0
+23:28:53,064  INFO TestAssertionRunner:19 - true
+23:29:38,037 ERROR TestAssertionRunner:16 - testAssertions(com.ashish.assertion.junit.TestAssertions): expected not same
+23:29:38,042  INFO TestAssertionRunner:18 - Failure Count : 1
+23:29:38,042  INFO TestAssertionRunner:19 - false
+23:30:27,101  INFO TestAssertionRunner:18 - Failure Count : 0
+23:30:27,107  INFO TestAssertionRunner:19 - true
+23:31:14,088  INFO TestJunit:19 - true
+21:29:53,241  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 704982704
+21:34:13,526  INFO TestWrapper:20 - n1 : 167
+21:34:13,526  INFO TestWrapper:21 - n2 : 119
+21:34:13,526  INFO TestWrapper:22 - n3 : 
+21:34:13,526  INFO TestWrapper:23 - n4 : 167
+21:37:06,886  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 47 , Sum: 704982704
+21:37:21,907  INFO SumOfIntegers:22 - Time taken in ms: 0 , Sum: 704982704
+21:37:28,203  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 31 , Sum: 704982704
+21:37:32,934  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 47 , Sum: 704982704
+21:37:35,981  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 31 , Sum: 704982704
+21:37:39,125  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 31 , Sum: 704982704
+11:02:50,003  INFO InheritedAnnotation:21 - 
+11:02:50,034  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+11:02:50,050  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+11:02:50,050  INFO InheritedAnnotation:24 - _________________________________
+11:02:50,050  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+11:02:50,050  INFO InheritedAnnotation:26 - 
+11:02:50,050  INFO InheritedAnnotation:27 - 
+11:09:18,431  INFO ExecutionProcedureRunner:19 - true
+19:59:43,189  INFO ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+19:59:43,189  INFO ThreadGroupDemo:10 - Thread name : three
+19:59:43,189  INFO ThreadGroupDemo:10 - Thread name : two
+19:59:43,189  INFO ThreadGroupDemo:10 - Thread name : one
+19:59:43,256  INFO ThreadGroupDemo:26 - Max priority: 10
+19:59:43,256  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+19:59:43,256  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup
+20:00:14,691  INFO ThreadGroupDemo:10 - Thread name : one
+20:00:14,701  INFO ThreadGroupDemo:10 - Thread name : three
+20:00:14,701  INFO ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+20:00:14,691  INFO ThreadGroupDemo:10 - Thread name : two
+20:00:14,701  INFO ThreadGroupDemo:26 - Max priority: 10
+20:00:14,701  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+20:00:14,701  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup
+15:10:26,344  INFO ExecutionProcedureRunner:19 - true
+15:15:59,180  INFO TestAssertionRunner:18 - Failure Count : 0
+15:15:59,186  INFO TestAssertionRunner:19 - true
+15:17:08,075  INFO TestJunit:19 - true
+15:17:17,699 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<Junit is work[]ing fine> but was:<Junit is work[s]ing fine>
+15:17:17,704  INFO TestJunit:19 - false
+18:24:32,487  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 35 , Sum: 704982704
+18:24:36,497  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 35 , Sum: 704982704
+18:24:45,191  INFO SumOfIntegers:22 - Time taken in ms: 3 , Sum: 704982704
+18:24:49,171  INFO SumOfIntegers:22 - Time taken in ms: 3 , Sum: 704982704

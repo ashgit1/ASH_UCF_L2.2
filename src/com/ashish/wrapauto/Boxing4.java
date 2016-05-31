@@ -15,9 +15,13 @@ class Boxing4 {
 		System.out.println("Widening and Boxing");
 	}
 	
-	// Comment the below method...
+	// Comment the below 2 method...
 	static void m(long I){
 		System.out.println("Widening");
+	}
+	
+	static void m(Number I){
+		System.out.println("Boxing and Widening");
 	}
 
 }

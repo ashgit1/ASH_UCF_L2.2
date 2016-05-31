@@ -68,7 +68,7 @@ Wildcard in Java Generics:
 --------------------------
 
 The ? (question mark) symbol represents wildcard element. It means any type. 
-If we write <? extends Number>, it means any child class of Number e.g. Integer, Float, double etc. 
+If we write <? extends Number>, it means any child class of Number e.g. Integer, Float, Double etc. 
 Now we can call the method of Number class through any child class object.
 eg: TestGenerics5.java
   
