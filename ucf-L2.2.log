@@ -304,3 +304,29 @@
 18:24:36,497  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 35 , Sum: 704982704
 18:24:45,191  INFO SumOfIntegers:22 - Time taken in ms: 3 , Sum: 704982704
 18:24:49,171  INFO SumOfIntegers:22 - Time taken in ms: 3 , Sum: 704982704
+23:56:06,174  INFO InheritedAnnotation:21 - 
+23:56:06,180  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+23:56:06,180  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+23:56:06,180  INFO InheritedAnnotation:24 - _________________________________
+23:56:06,181  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+23:56:06,181  INFO InheritedAnnotation:26 - 
+23:56:06,181  INFO InheritedAnnotation:27 - 
+13:43:34,791  INFO InheritedAnnotation:21 - 
+13:43:34,795  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+13:43:34,795  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+13:43:34,795  INFO InheritedAnnotation:24 - _________________________________
+13:43:34,795  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+13:43:34,796  INFO InheritedAnnotation:26 - 
+13:43:34,796  INFO InheritedAnnotation:27 - 
+11:18:02,640  INFO InheritedAnnotation:21 - 
+11:18:02,644  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+11:18:02,645  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+11:18:02,645  INFO InheritedAnnotation:24 - _________________________________
+11:18:02,645  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+11:18:02,645  INFO InheritedAnnotation:26 - 
+11:18:02,646  INFO InheritedAnnotation:27 - 
+13:40:17,760  INFO ExecutionProcedureRunner:19 - true
+13:44:56,422  INFO TestAssertionRunner:18 - Failure Count : 0
+13:44:56,424  INFO TestAssertionRunner:19 - true
+13:46:08,410 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<Junit is work[]ing fine> but was:<Junit is work[s]ing fine>
+13:46:08,414  INFO TestJunit:19 - false

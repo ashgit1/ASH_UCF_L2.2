@@ -53,3 +53,17 @@ instead if you see JUnit it shows how assertion can be useful to validate condit
 Note:
 If you are working in java version 1.2 you can compile your code with assertion as below:
 javac -source 1.4 OnlineStockTradingDemo.java
+
+---------------------------------------------------------------------------------------------
+
+Q.) Why it is not correct to handle assertions failures in catch clause ?
+A.) AssertException.java
+
+Q.) Why Assertions should not be used to check arguments in public methods ?
+A.) The problem with using assertions for argument checking is that erroneous arguments 
+should result in an appropriate runtime exception 
+(such as IllegalArgumentException, IndexOutOfBoundsException, or NullPointerException). 
+An assertion failure will not throw an appropriate exception. It will throw AssertionError only.
+
+
+
