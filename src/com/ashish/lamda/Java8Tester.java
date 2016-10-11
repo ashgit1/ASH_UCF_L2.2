@@ -6,7 +6,7 @@ public class Java8Tester {
 
 	public static void main(String args[]) {
 		GreetingService greetService1 = (message) -> System.out.println(salutation + message);
-		greetService1.sayMessage("Mahesh");
+		greetService1.sayMessage("Ashishkumar Gupta");
 	}
 
 	interface GreetingService {

@@ -16,6 +16,10 @@ public class MemoryTest {
 		System.out.println("----------------------------------------------------------------");
 		System.out.println("Available Processors: " + r.availableProcessors());
 	}
+	
+	public void finalize(){
+		//System.out.println("unreferenced objects will be garbage collected");
+	}
 }
 
 /**

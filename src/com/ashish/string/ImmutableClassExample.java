@@ -4,7 +4,7 @@ import java.util.Date;
 
 public class ImmutableClassExample {
 
-	// Both String and Integer is Immutable
+	// Both String and Integer are Immutable
 	private final String val1;
 	private final Integer val2;
 

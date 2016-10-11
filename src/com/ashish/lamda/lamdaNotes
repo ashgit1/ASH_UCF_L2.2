@@ -24,7 +24,7 @@ Following are the important characteristics of a lambda expression:
 4. Optional return keyword - Compiler automatically returns value if body has a single expression to return the value. 
    Curly Braces are required to indicate that expression returns a value.
 
-Eg: Java8Teste.java 
+Eg: Java8Tester.java 
    
 ------------------------------------------------------------------------------------------------------------
 http://tutorials.jenkov.com/java/lambda-expressions.html

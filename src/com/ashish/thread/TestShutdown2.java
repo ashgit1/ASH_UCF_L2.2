@@ -10,8 +10,8 @@ public class TestShutdown2 {
 			public void run() {
 				System.out.println("shut down hook task completed..");
 			}
-		});
-*/
+		});*/
+
 		System.out.println("Now main sleeping... press ctrl+c to exit");
 		try {
 			Thread.sleep(3000);

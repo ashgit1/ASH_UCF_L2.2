@@ -330,3 +330,31 @@
 13:44:56,424  INFO TestAssertionRunner:19 - true
 13:46:08,410 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<Junit is work[]ing fine> but was:<Junit is work[s]ing fine>
 13:46:08,414  INFO TestJunit:19 - false
+20:23:11,519  INFO TestWrapper:20 - n1 : 167
+20:23:11,523  INFO TestWrapper:21 - n2 : 119
+20:23:11,523  INFO TestWrapper:22 - n3 : 
+20:23:11,523  INFO TestWrapper:23 - n4 : 167
+20:24:05,066  INFO TestWrapper:20 - n1 : 167
+20:24:05,069  INFO TestWrapper:21 - n2 : 119
+20:24:05,069  INFO TestWrapper:22 - n3 : 
+20:24:05,069  INFO TestWrapper:23 - n4 : 167
+20:24:16,040  INFO TestWrapper:20 - n1 : 167
+20:24:16,042  INFO TestWrapper:21 - n2 : 111
+20:24:16,042  INFO TestWrapper:22 - n3 : 
+20:24:16,043  INFO TestWrapper:23 - n4 : 167
+20:24:24,118  INFO TestWrapper:20 - n1 : 167
+20:24:24,121  INFO TestWrapper:21 - n2 : 119
+20:24:24,121  INFO TestWrapper:22 - n3 : 
+20:24:24,121  INFO TestWrapper:23 - n4 : 167
+20:26:31,917  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 11 , Sum: 704982704
+20:26:46,539  INFO SumOfIntegers:22 - Time taken in ms: 1 , Sum: 704982704
+20:26:55,254  INFO SumOfIntegers:22 - Time taken in ms: 2 , Sum: 704982704
+20:26:59,585  INFO SumOfIntegers:22 - Time taken in ms: 1 , Sum: 704982704
+20:27:07,040  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 10 , Sum: 704982704
+02:26:44,352  INFO ThreadGroupDemo:10 - Thread name : one
+02:26:44,355  INFO ThreadGroupDemo:10 - Thread name : three
+02:26:44,352  INFO ThreadGroupDemo:10 - Thread name : two
+02:26:44,352  INFO ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+02:26:44,376  INFO ThreadGroupDemo:26 - Max priority: 10
+02:26:44,377  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+02:26:44,377  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup

@@ -1,6 +1,7 @@
 A program will terminate only when all user threads stop running.
 Which implementation of the List interface produces the slowest access to an element : LinkedList.
 You can't override a method to be more private than its super class.
+ex: OverrideRestriction.java
 Target(ElementType.AutoVariable) : not a valid target annotation.
 
 Enums can be compared and serialized.
