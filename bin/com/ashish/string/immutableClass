@@ -1,0 +1,41 @@
+1. How to make a class Immutable in Java ?
+Immutable class is the one whose state cannot be changed after it is created. 
+The best example for this is String, Integer class in Java, once instantiated the value never be changed.
+
+Immutable class has lots of advantages such as they can be used for the caching purposes as you don’t 
+need to worry about the value changes. 
+Immutable class is thread-safe and hence you don’t need to worry about synchronization issues and can be 
+easily used in the multi-threaded environment
+
+2. How to Make a class Immutable?
+You can make the class immutable easily by following the below pointers:
+
+*Don’t provide “setter” methods or methods that modify fields or objects referred to by fields.
+As the setter method will allow you to change the state of the object and hence avoid it.
+
+ * Make all fields final and private.
+Making the fields private will let you access the fields only within the class and final keyword will let you prevent 
+the value being changed at any cost. This increases your immutability feature.
+
+ * Prevent overriding
+The best way to prevent overriding is declaring your class as a final class.
+
+* Factory method instance creation and Private Constructor
+Use factory based instance creation, have a public method to get the object instances. 
+Private Constructor will never allow object creation for your class
+
+ * Never pass the reference of the Mutable objects
+Immutable object like String,Integer can be passed directly whereas never pass the direct reference of the mutable object, 
+instead create a copy and pass it
+
+Lets take,  Date class in java which is  mutable even though you mark it with final keyword 
+
+final Date date = new Date();  
+date.setYear(2014); // This lets the value to be changed.
+So in order to make it immutable we will return the copy not the direct reference of the mutable object
+
+Date(date1.getTime());
+Here date1 is a mutable object and its reference is not passed directly.
+
+Let put all these and create the immutable class.
+ex: ImmutableClassExample.java and ImmutableTestMain.java

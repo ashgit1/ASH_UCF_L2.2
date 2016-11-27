@@ -10,7 +10,7 @@ public class ArrangeNumbers {
 		ArrayList<Integer> showNumber = new ArrayList<Integer>();
 		
 		// fill the masterList...
-		for(int i=1; i<=1000; i++){
+		for(int i=1; i<=10000; i++){
 			masterList.add(i);
 		}
 		

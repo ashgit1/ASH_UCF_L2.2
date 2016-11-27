@@ -358,3 +358,30 @@
 02:26:44,376  INFO ThreadGroupDemo:26 - Max priority: 10
 02:26:44,377  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
 02:26:44,377  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup
+18:24:18,124  INFO InheritedAnnotation:21 - 
+18:24:18,156  INFO InheritedAnnotation:22 - @com.ashish.annotation.InheritedAnnotationType()
+18:24:18,157  INFO InheritedAnnotation:23 - @com.ashish.annotation.InheritedAnnotationType()
+18:24:18,157  INFO InheritedAnnotation:24 - _________________________________
+18:24:18,157  INFO InheritedAnnotation:25 - @com.ashish.annotation.UninheritedAnnotationType()
+18:24:18,157  INFO InheritedAnnotation:26 - 
+18:24:18,157  INFO InheritedAnnotation:27 - 
+18:56:12,850  INFO ExecutionProcedureRunner:19 - true
+18:59:39,256  INFO TestAssertionRunner:18 - Failure Count : 0
+18:59:39,258  INFO TestAssertionRunner:19 - true
+19:00:12,199 ERROR TestJunit:17 - testAdd(com.ashish.assertion.junit.TestJunit): expected:<Junit is work[]ing fine> but was:<Junit is work[s]ing fine>
+19:00:12,202  INFO TestJunit:19 - false
+12:05:29,393  INFO TestWrapper:20 - n1 : 167
+12:05:29,397  INFO TestWrapper:21 - n2 : 17
+12:05:29,397  INFO TestWrapper:22 - n3 : 
+12:05:29,397  INFO TestWrapper:23 - n4 : 167
+12:10:10,641  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 9 , Sum: 704982704
+12:10:36,545  INFO SumOfIntegers:22 - Time taken in ms: 1 , Sum: 704982704
+12:10:41,356  INFO SumOfIntegers:22 - Time taken in ms: 1 , Sum: 704982704
+12:10:46,034  INFO UnIntentionalObjectCreation:22 - Time taken in ms: 9 , Sum: 704982704
+13:46:46,311  INFO ThreadGroupDemo:10 - Thread name : one
+13:46:46,311  INFO ThreadGroupDemo:25 - Thread Group Name: Parent ThreadGroup
+13:46:46,311  INFO ThreadGroupDemo:10 - Thread name : two
+13:46:46,311  INFO ThreadGroupDemo:10 - Thread name : three
+13:46:46,314  INFO ThreadGroupDemo:26 - Max priority: 10
+13:46:46,315  INFO ThreadGroupDemo:27 - Parent: java.lang.ThreadGroup[name=main,maxpri=10]
+13:46:46,315  INFO ThreadGroupDemo:28 - Name: Parent ThreadGroup

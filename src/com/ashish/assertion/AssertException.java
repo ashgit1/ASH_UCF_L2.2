@@ -11,6 +11,7 @@ public class AssertException {
 		}
 		catch(AssertionError e){
 			System.out.println("Assert Error caught");
+			e.printStackTrace();
 		}
 	}
 }
